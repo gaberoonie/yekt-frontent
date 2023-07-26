@@ -1,0 +1,174 @@
+
+@media (max-width: 575px) { 
+
+    /*------- Spacer Style  -------*/
+    .pb-50{
+        padding-bottom: 30px;
+    }
+
+    /*------- Header -------*/
+    .search-form-modal{
+        .form-group{
+            .form-control{
+                font-size: 16px;
+                padding: 0px 20px 11px 0px;
+            }
+        }
+    }
+
+    .header-profile-in{
+        width: 100%;
+        right: 0;
+        padding: 20px 30px;
+    }
+
+    /*------- Section Heading -------*/
+    .heading-part{
+        h2{
+            padding-top: 7px;
+        }
+    }
+
+    .view-all{
+        display: none;
+    }
+
+    .view-all-mob{
+        display: block;
+    }
+
+    /*------- Home Banner -------*/
+    .home-banner{
+
+        .home-banner-content{
+            .banner-btn{
+                display: flex;
+                justify-content: center;
+                flex-direction: column;
+                align-items: center;
+
+                .btn-two{
+                    margin-left: 0px;
+                    margin-top: 16px;
+                }
+            }
+        }
+
+        .artwork-box{
+            .create-inr{
+                bottom: 10%;
+                left: 50%;
+                transform: translateX(-50%);
+                min-width: 257px;
+                padding: 15px;
+            }
+        }
+
+        .home-banner-slider .owl-nav .owl-prev span,
+        .home-banner-slider .owl-nav .owl-next span{
+            width: 26px;
+            height: 26px;
+            line-height: 20px;
+            right: 24px;
+            margin-top: 24px;
+
+            &::after{
+                font-size: 15px;
+            }
+        }
+
+        .home-banner-slider .owl-nav .owl-prev span{
+            margin-right: 38px;
+        }
+    } 
+
+     /*------- live auction 2 -------*/
+     .live-auction-2{
+        &.ptb-100{
+            padding-bottom: 450px;
+        }
+    }
+
+    /*------- Create Art -------*/
+    .creat-art{
+        margin-top: -400px;
+
+        .creat-art-box{
+            .creat-btn{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                flex-direction: column;
+
+                .btn-two{
+                    margin-left: 0px;
+                    margin-top: 12px;
+                }
+            }
+        }
+    }
+
+    /*------- Connect Wallet Page -------*/
+    .activity-filter{
+        .filter-btn{
+            li{
+                a{
+                    min-width: 150px;
+                }
+            }
+        }
+    }
+
+    .activity-box{
+        flex-direction: column;
+        align-items: start;
+
+        .activity-content{
+            width: 100%;
+            padding-left: 0px;
+            padding-right: 0px;
+            padding-top: 24px;
+        }
+
+        .activity-icon{
+            top: 30px;
+            transform: none;
+        }
+    }
+
+    /*------- Single Artwork Page -------*/
+    .nav-tab{
+        ul{
+            li{
+                a{
+                    min-width: 96px;
+                }
+            }
+        }
+    }
+
+    /*------- Blog Detail Page -------*/
+    .blog-detail-main{
+        .blog-detail-tag,.blog-detail-social{
+            flex-direction: column;
+            justify-content: start;
+            align-items: start;
+
+            span{
+                display: block;
+                text-align: left;
+                padding-bottom: 10px;
+                width: 100%;
+            }
+
+            ul{
+                padding-left: 0px;
+                li{
+                    a{
+                        padding: 8px 15px;
+                    }
+                }
+            }
+        }
+    }
+}   

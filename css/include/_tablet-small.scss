@@ -1,0 +1,300 @@
+
+
+@media (max-width: 991px) { 
+
+    /*------- General Style -------*/
+    .container{
+        max-width: 800px;
+        padding: 0px 20px;
+    }
+
+    .order_md-1{
+        order: 1;
+    }
+
+    .order_md-2{
+        order: 2;
+    }
+
+    /*------- Spacer Style  -------*/
+    .pb-50{
+        padding-bottom: 40px;
+    }
+
+    /*------- Headings Style -------*/
+    h1 {
+        font-size: 40px;
+        line-height: 56px;
+    }
+    h2{
+        font-size: 34px;
+        line-height: 42px;
+    }
+    h3{
+        font-size: 22px;
+        line-height: 26px;
+    }
+    h5{
+        font-size: 18px;
+        line-height: 28px;
+    }
+
+    /*----------- Button Style -----------*/
+    .btn-large {
+        font-size: 14px;
+        padding: 14px 10px;
+        min-width: 178px;
+    }
+
+    .btn-two{
+        font-size: 14px;
+        padding: 12px 10px;
+    }
+
+    .view-btn{
+        font-size: 14px;
+
+        img{
+            max-width: 30px;
+        }
+    }
+
+    /*------- Header Style -------*/
+    .header{
+        .nav-menu{
+            max-width: 800px;
+            padding: 0px 20px;
+            padding-top: 14px;
+        }
+
+        .main-menu{
+            height: calc(100vh - 58px);
+            top: 58px;
+
+            .connect-wallet{
+                max-width: 800px;
+                padding: 0px 20px;
+            }
+        }
+
+        .logo{
+            img{
+                max-width: 185px;
+            }
+        }
+
+        &.sticky-header{
+            .main-menu{
+                height: calc(100vh - 58px);
+                top: 58px;
+            }
+
+            .logo{
+                img{
+                    max-width: 185px;
+                }
+            }
+        }
+    }
+
+    .menu-toggle{
+        right: 20px;
+    }
+
+    .menu-search{
+        right: 114px;
+    }
+
+    .header-profile{
+        &.mob-profile{
+            right: 61px;
+        }
+    }
+
+    .header-home{
+        .menu-search{
+            right: 66px;
+        }
+    }
+
+    /*------- Home Banner -------*/
+    .home-banner{
+
+        .home-banner-content{
+            margin-bottom: 40px;
+            text-align: center;
+            max-width: 100%;
+
+            .banner-btn{
+                .btn-two{
+                    margin-left: 18px;
+                }
+            }
+        }
+
+        .artwork-box,.home-banner-slider{
+            margin-right: auto;
+            max-width: 550px;
+            margin-left: auto;
+        }
+    }
+
+    /*------- Heading Part -------*/
+    .heading-part-2{
+        .sub-title{
+            padding-bottom: 10px;
+        }
+    }
+
+    /*------- Footer -------*/
+    .copyright{
+        padding: 30px 0px;
+        text-align: center !important;
+
+        .copyright-text{
+            padding-bottom: 14px;
+        }
+
+        .copyright-link{
+            text-align: center !important;
+        }
+    }
+
+    /*------- live auction 2 -------*/
+    .live-auction-2{
+        &.ptb-100{
+            padding-bottom: 440px;
+        }
+    }
+
+    /*------- Create Art -------*/
+    .creat-art{
+        margin-top: -373px;
+
+        .creat-art-box{
+            padding: 50px 50px;
+            text-align: center;
+
+            .creat-art-content{
+                margin: 0px auto;
+                padding-bottom: 31px;
+
+                h2{
+                    line-height: 46px;
+                }
+
+                .creat-des{
+                    padding: 20px 0px 30px 0px;
+                }
+            }
+        }
+    }
+
+    /*------- SubPage Banner -------*/
+    .sub-page-banner{
+        padding: 135px 0px 70px 0px;
+        
+        .page-banner{
+            .sub-banner-title{
+                font-size: 36px;
+                line-height: 48px;
+                padding-bottom: 8px;
+            }
+        }
+    }
+
+    /*------- Single Artwork Page -------*/
+    .single-art-content{
+        .art-detail{
+            p{
+                font-size: 16px;
+                line-height: 28px;
+                padding: 14px 0px 30px 0px;
+            }
+        }
+    }
+    .single-art-box{
+        .single-art-img{
+            max-width: 600px;
+            margin: auto;
+        }
+        .auction-ends{
+            padding-top: 28px;
+
+            .place-bid-btn{
+                margin-top: 26px;
+                margin-bottom: 34px;
+            }
+
+            .timer{
+                .timer-box{
+                    max-width: 250px;
+                    .count{
+                        span{
+                            font-size: 36px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    /*------- Single creator Page -------*/
+    .single-creator{
+        .single-creator-box{
+            margin-bottom: 40px;
+            position: static;
+            top: auto;
+        }
+
+        .nav-tab{
+            ul{
+                li{
+                    padding-top: 10px;
+                }
+            }
+        }
+
+        .live-auction-box{
+            max-width: 600px;
+            margin-right: auto;
+            margin-left: auto;
+        }
+    }
+
+    /*------- Contact Page -------*/
+    .contact-form{
+        margin-top: 30px;
+    }
+    .contact-map{
+        .map-location {
+            height: 310px;
+        }
+    }
+
+    /*------- Blog List Page -------*/
+    .blog-list-main{
+        margin-bottom: 50px;
+        .blog-list-box{
+            margin-bottom: 40px;
+        }
+    }
+
+    /*------- Blog Detail Page -------*/
+    .blog-detail-main{
+        .blog-detail-social{
+            justify-content: start;
+            margin-top: 20px;
+        }
+
+        .blog-detail-content{
+            h3{
+                font-size: 22px;
+                line-height: 32px;
+            }
+            blockquote{
+                padding: 24px 20px;
+            }
+        }
+    }
+}

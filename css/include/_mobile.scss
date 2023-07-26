@@ -1,0 +1,316 @@
+
+@media (max-width: 767px) { 
+    
+    /*------- General Style  -------*/
+    .delay-1{
+        animation-delay: 0s;
+    }
+    
+    .delay-2{
+        animation-delay: 0s;
+    }
+    
+    .delay-3{
+        animation-delay: 0s;
+    }
+    
+    .order_sm-1{
+        order: 1;
+    }
+
+    .order_sm-2{
+        order: 2;
+    }
+
+    /*------- Spacer Style  -------*/
+    .ptb-100{
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    .pt-100 {
+        padding-top: 50px;
+    }
+    .pb-100 {
+        padding-bottom: 50px;
+    }
+    .pb-70{
+        padding-bottom: 20px;
+    }
+    .mt-50{
+        margin-top: 35px;
+    }
+
+    /*------- Button Style  -------*/
+    .btn {
+        padding: 14px 18px;
+        min-width: 160px;
+    }
+
+    /*------- Headings Style -------*/
+    h1 {
+        font-size: 32px;
+        line-height: 43px;
+    }
+    h2{
+        font-size: 28px;
+        line-height: 38px;
+    }
+    h3{
+        font-size: 22px;
+        line-height: 26px;
+    }
+    h5{
+        font-size: 18px;
+        line-height: 28px;
+    }
+
+    /*------- Home Banner -------*/
+    .home-banner{
+        padding-top: 135px !important;
+        padding-bottom: 80px !important;
+        
+        .home-banner-content{
+            max-width: 600px;
+            margin-left: auto;
+            margin-right: auto;
+            
+            .banner-des{
+                font-size: 16px;
+                line-height: 28px;
+                padding-top: 16px;
+                padding-bottom: 28px;
+            }
+        }
+    }
+
+    .page-heading {
+        font-size: 24px;
+        line-height: 36px;
+    }
+
+    /*------- Popular Collection -------*/
+    .category-box{
+        &:hover .category-content{
+            bottom: 24px;
+        }
+    }
+
+    /*------- Footer -------*/
+    .footer-content{
+        .footer-box{
+            .footer-title{
+                margin-bottom: 18px;
+            }
+        } 
+    } 
+
+     /*------- live auction 2 -------*/
+     .live-auction-2{
+        &.ptb-100{
+            padding-bottom: 400px;
+        }
+    }
+
+    /*------- Create Art -------*/
+    .creat-art{
+        margin-top: -339px;
+
+        .creat-art-box{
+            padding: 30px 30px;
+
+            .creat-art-content{
+                h2{
+                    line-height: 40px;
+                }
+                .creat-des{
+                    font-size: 16px;
+                }
+            }
+
+            .creat-art-img{
+                max-width: 275px;
+            }
+        }
+    }
+
+    /*------- Blog Section 2 -------*/
+    .blog-box-2{
+        padding: 24px;
+    }
+
+    /*------- SubPage Banner -------*/
+    .sub-page-banner{
+        .page-banner{
+            .sub-banner-title{
+                font-size: 30px;
+                line-height: 42px;
+                padding-bottom: 6px;
+            }
+        }
+    }
+
+    /*------- Connect Wallet Page -------*/
+    .connect-wallet{
+        .wallet-box{
+            padding: 36px 22px;
+        }
+    }
+    .wallet-modal{
+        .modal-dialog{
+            max-width: 335px;
+        }
+    }
+
+    /*------- Explore Artwork Page -------*/
+    .explore-artwork{
+        .live-auction-box{
+            margin-left: auto;
+            margin-right: auto;
+            max-width: 600px;
+        }
+    }
+
+    /*------- Explore Creator Page -------*/
+    .explore-creator{
+        .load-more{
+            margin-top: 0px;
+        }
+    }
+
+    /*------- Single Artwork Page -------*/
+    .single-art-content{
+        .biding-part{
+            ul li{
+                font-size: 16px;
+                span{
+                    font-size: 13px;
+                }
+            }
+        }
+
+        .place-bid-main{
+            .place-bid-content{
+                p{
+                    font-size: 16px;
+                }
+                span{
+                    font-size: 14px;
+                    padding-top: 5px;
+                }
+            }
+        }
+    }
+
+    /*------- About Page -------*/
+    .about-us{
+        .about-detail{
+            p{
+                padding-top: 15px;
+            }
+        }
+        .about-img{
+            margin-bottom: 30px;
+        }
+    }
+
+    /*------- Contact Page -------*/
+    .contact-us{
+        .contact-content{
+            .contact-title{
+                padding-bottom: 15px;
+            }
+        }
+    }
+
+    /*------- FAQ Page -------*/
+    .faq{
+        .pb-30 {
+            padding-bottom: 20px;
+        }
+        .tab-content{
+            padding-top: 0px;
+        }
+    }
+
+    /*------- Blog List Page -------*/
+    .blog-list-main{
+        .blog-list-box{
+            .blog-list-content{
+                .blog-list-title{
+                    font-size: 20px;
+                }
+            }
+        }
+        .blog-list-pagination{
+            ul{
+                li{
+                    a{
+                        width: 40px;
+                        height: 40px;
+                        font-size: 14px;
+
+                        i{
+                            font-size: 18px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    /*------- Blog Detail Page -------*/
+    .blog-detail-main{
+        .blog-comment-box{
+            li{
+                display: inline-block;
+            }
+        }
+        .comment-user{
+            width: 70px;
+        }
+
+        .blog-comment-post{
+            padding-bottom: 40px;
+        }
+
+        .blog-comment-content{
+            width: calc(100% - 70px);
+            padding-left: 22px;
+
+            .commenter{
+                line-height: 22px;
+                padding-bottom: 6px;
+            }
+
+            .comment-reply{
+                position: static;
+                margin-top: 16px;
+            }
+        }
+
+        .blog-detail-tag-social{
+            padding-bottom: 40px;
+            margin-bottom: 40px;
+        }
+
+        .blog-comment-post-singel{
+            padding-bottom: 40px;
+            margin-bottom: 40px;
+        }
+    }
+    .blog-comment-heading {
+        font-size: 26px;
+    }
+
+    /*------- 404 Page -------*/
+    .error-txt{
+        .error-title{
+            font-size: 80px;
+            line-height: 90px;
+        }
+        p{
+            font-size: 14px;
+            line-height: 24px;
+        }
+    }
+}

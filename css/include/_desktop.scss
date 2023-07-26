@@ -1,0 +1,27 @@
+
+@media (max-width: 1299px) {  
+
+    /*---------- General Style ------------*/
+    .container {
+        max-width: calc(100% - 50px);
+        padding: 0px 30px;
+    }
+
+    /*------- live auction 2 -------*/
+    .live-auction-2{
+        .owl-nav .owl-prev span, .owl-nav .owl-next span{
+            width: 30px;
+            height: 30px;
+            line-height: 30px;
+        }
+        .owl-nav .owl-next span{
+            right: -35px;
+        }
+        .owl-nav .owl-prev span {
+            left: -35px;
+        }
+        .owl-nav .owl-prev span::after, .owl-nav .owl-next span::after{
+            font-size: 18px;
+        }
+    }
+}

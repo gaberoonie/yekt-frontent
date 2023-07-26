@@ -1,0 +1,31 @@
+/*------- General Color -------*/
+$primarycolor: #0d022e;
+$secondarycolor: #190f39;
+$darkpurplecolor: #190f39;
+$bluecolor: #009fed;
+$lightbluecolor: #005fd8;
+$whitecolor: #FFFFFF;
+$blackcolor: #000;
+$lightpurplecolor: #251b43;
+$greycolor: #999999;
+$greencolor: #33c741;
+
+/*------- Button Gradient Color -------*/
+$gradientcolor: linear-gradient(to right, #0049d3, #009dea);
+$gradientcolorhover: linear-gradient(to right, #009dea, #0049d3);
+
+/*------- Page Gradient Color -------*/
+$create-art-gardient: linear-gradient(to right, #22154a, #28185c);
+
+/*------- Text Color -------*/
+$textcolorwhite: #FFFFFF;
+$textcolorgray: #999999;
+$textcolorlight: #cfcfcf;
+$textcolorblue: #009fed;
+$gradienttext: linear-gradient(to right, #004dd4, #009ae9);
+
+/*------- Font Include -------*/
+$montserrat: 'Montserrat', sans-serif;
+
+@import "include/general";
+@import "include/responsive";
