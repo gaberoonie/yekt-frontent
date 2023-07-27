@@ -66,8 +66,8 @@
 
     /*------- Home Banner -------*/
     .home-banner{
-        padding-top: 135px !important;
-        padding-bottom: 80px !important;
+        padding-top: 135px;
+        padding-bottom: 80px;
         
         .home-banner-content{
             max-width: 600px;
@@ -107,7 +107,7 @@
      /*------- live auction 2 -------*/
      .live-auction-2{
         &.ptb-100{
-            padding-bottom: 400px;
+            padding-bottom: 400px !important;
         }
     }
 
